@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { ReactFlowProvider } from 'react-flow-renderer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Component
+import Layout from './Components/Layout/Layout'
+
+// Pages
+import Home from 'Pages/Home/Home'
+
+// 404
+import NoMatch from './Pages/NoMatch/NoMatch'
+
+const App = () => {
+	return (
+		<>
+			<ReactFlowProvider>
+				<Router>
+					<Routes>
+						<Route path='/' element={<Layout />}>
+							{/* Home */}
+							<Route index element={<Home />} />
+
+							{/* 404 */}
+							<Route path='*' element={<NoMatch />} />
+						</Route>
+					</Routes>
+				</Router>
+			</ReactFlowProvider>
+		</>
+	)
 }
 
-export default App;
+export default App
