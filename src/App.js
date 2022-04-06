@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { ReactFlowProvider } from 'react-flow-renderer'
 
 // Component
 import Layout from './Components/Layout/Layout'
@@ -14,7 +13,6 @@ import NoMatch from './Pages/NoMatch/NoMatch'
 const App = () => {
 	return (
 		<>
-			<ReactFlowProvider>
 				<Router>
 					<Routes>
 						<Route path='/' element={<Layout />}>
@@ -26,7 +24,6 @@ const App = () => {
 						</Route>
 					</Routes>
 				</Router>
-			</ReactFlowProvider>
 		</>
 	)
 }
