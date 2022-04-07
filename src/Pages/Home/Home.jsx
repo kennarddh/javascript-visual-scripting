@@ -9,9 +9,10 @@ import { Container } from './Style'
 
 // Config
 import Config from 'Config/Config'
+import DefaultNodes from 'Config/DefaultNodes'
 
 const Home = () => {
-	const [Nodes, SetNodes] = useState({})
+	const [Nodes, SetNodes] = useState(DefaultNodes)
 
 	return (
 		<>
@@ -27,6 +28,7 @@ const Home = () => {
 							y: 0,
 						},
 					]}
+					nodes={Nodes}
 				/>
 				<Result nodes={Nodes} />
 			</Container>
