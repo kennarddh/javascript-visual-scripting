@@ -1,6 +1,6 @@
 const Join = {
 	type: 'joinString',
-	label: 'Join String',
+	label: 'String: Join',
 	description: 'Combines strings into one string',
 	initialWidth: 160,
 	inputs: ports => [

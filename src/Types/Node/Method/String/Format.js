@@ -1,6 +1,6 @@
 const Format = {
 	type: 'formatString',
-	label: 'Format String',
+	label: 'String: Format',
 	description: 'Format a parameterized string',
 	initialWidth: 230,
 	inputs: ports => data => {

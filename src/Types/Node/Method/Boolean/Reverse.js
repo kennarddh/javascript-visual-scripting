@@ -1,6 +1,6 @@
 const Reverse = {
 	type: 'reverseBoolean',
-	label: 'Reverse Boolean',
+	label: 'Boolean: Reverse',
 	description: 'Reverses boolean value',
 	initialWidth: 140,
 	inputs: ports => [ports.boolean()],

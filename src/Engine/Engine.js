@@ -5,8 +5,8 @@ import Config from 'Config/Config'
 
 // Utils
 // Engine
-import ResolvePorts from 'Utils/Engine/ResolvePorts'
-import ResolveNodes from 'Utils/Engine/ResolveNodes'
+import ResolvePorts from 'Resolver/ResolvePorts'
+import ResolveNodes from 'Resolver/ResolveNodes'
 
 const Engine = new RootEngine(Config, ResolvePorts, ResolveNodes)
 
