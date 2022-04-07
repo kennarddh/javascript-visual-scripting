@@ -6,7 +6,6 @@ const BooleanPort = {
 	label: 'Boolean',
 	color: Colors.blue,
 	controls: [
-		
 		Controls.checkbox({
 			name: 'boolean',
 			label: 'Boolean',

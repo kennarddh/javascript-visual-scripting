@@ -5,7 +5,7 @@ import { useRootEngine } from 'flume'
 import Engine from 'Engine/Engine'
 
 // Style
-import { OutputContainer, Title , ResultContainer} from './Style'
+import { OutputContainer, Title, ResultContainer } from './Style'
 
 // Components
 import Output from 'Components/Output/Output'

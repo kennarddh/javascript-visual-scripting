@@ -14,7 +14,7 @@ const Format = {
 		while ((res = re.exec(template)) !== null) {
 			if (!ids.includes(res[1])) ids.push(res[1])
 		}
-		
+
 		return [
 			ports.string({
 				name: 'template',

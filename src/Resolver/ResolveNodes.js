@@ -1,4 +1,4 @@
-const ResolveNodes = (node, inputValues, nodeType, context) => {
+const ResolveNodes = (node, inputValues) => {
 	switch (node.type) {
 		case 'string':
 			return { string: inputValues.string }
@@ -15,12 +15,13 @@ const ResolveNodes = (node, inputValues, nodeType, context) => {
 					inputValues.separator
 				),
 			}
-		case 'formatString':
+		case 'formatString': {
 			const { template, ...inputs } = inputValues
 			const re = /\{(.*?)\}/g
 			const message = template.replace(re, (_, key) => inputs[key])
 
 			return { message }
+		}
 
 		// Number
 		case 'numberMathAddition':
@@ -45,7 +46,7 @@ const ResolveNodes = (node, inputValues, nodeType, context) => {
 			return { string: inputValues.number.toString() }
 		case 'booleanToString':
 			return { string: inputValues.boolean.toString() }
-		
+
 		default:
 			return inputValues
 	}

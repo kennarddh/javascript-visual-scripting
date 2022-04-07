@@ -22,7 +22,9 @@
 		"eject": "react-scripts eject",
 		"commit": "git-cz",
 		"prepare": "husky install",
-		"lint": "eslint ."
+		"lint": "eslint src/**/*.js src/**/*.jsx",
+		"prettier:fix": "prettier -w \"src/**/*.{js,jsx}\"",
+		"prettier:check": "prettier -c \"src/**/*.{js,jsx}\""
 	},
 	"eslintConfig": {
 		"extends": [
@@ -45,6 +47,8 @@
 	"devDependencies": {
 		"eslint": "^8.12.0",
 		"eslint-plugin-react": "^7.29.4",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-config-prettier": "^8.3.0",
 		"git-cz": "^4.8.0",
 		"husky": "^7.0.4",
 		"prettier": "^2.6.2",

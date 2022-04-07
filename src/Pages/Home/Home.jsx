@@ -13,7 +13,6 @@ import Config from 'Config/Config'
 const Home = () => {
 	const [Nodes, SetNodes] = useState({})
 
-
 	return (
 		<>
 			<Container>
