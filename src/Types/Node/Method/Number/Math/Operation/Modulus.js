@@ -1,6 +1,6 @@
 const Modulus = {
-	type: 'numberMathModulus',
-	label: 'Number: Math: Modulus',
+	type: 'numberMathOperationModulus',
+	label: 'Number: Math: Operation: Modulus',
 	description: 'Calculate the modulus of two numbers',
 	initialWidth: 160,
 	inputs: ports => [

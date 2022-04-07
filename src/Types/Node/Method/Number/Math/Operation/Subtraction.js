@@ -1,6 +1,6 @@
 const Subtraction = {
-	type: 'numberMathSubtraction',
-	label: 'Number: Math: Subtraction',
+	type: 'numberMathOperationSubtraction',
+	label: 'Number: Math: Operation: Subtraction',
 	description: 'Subtract two numbers',
 	initialWidth: 160,
 	inputs: ports => [

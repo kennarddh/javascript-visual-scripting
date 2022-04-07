@@ -28,17 +28,17 @@ const ResolveNodes = (node, inputValues) => {
 			return { number: Math.abs(inputValues.number) }
 
 		// Operation
-		case 'numberMathAddition':
+		case 'numberMathOperationAddition':
 			return { number: inputValues.number1 + inputValues.number2 }
-		case 'numberMathSubtraction':
+		case 'numberMathOperationSubtraction':
 			return { number: inputValues.number1 - inputValues.number2 }
-		case 'numberMathMultiplication':
+		case 'numberMathOperationMultiplication':
 			return { number: inputValues.number1 * inputValues.number2 }
-		case 'numberMathDivision':
+		case 'numberMathOperationDivision':
 			return { number: inputValues.number1 / inputValues.number2 }
-		case 'numberMathModulus':
+		case 'numberMathOperationModulus':
 			return { number: inputValues.number1 % inputValues.number2 }
-		case 'numberMathExponentiation':
+		case 'numberMathOperationExponentiation':
 			return { number: inputValues.number1 ** inputValues.number2 }
 
 		// Boolean

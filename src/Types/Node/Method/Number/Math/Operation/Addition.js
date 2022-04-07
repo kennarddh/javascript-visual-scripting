@@ -1,6 +1,6 @@
 const Addition = {
-	type: 'numberMathAddition',
-	label: 'Number: Math: Addition',
+	type: 'numberMathOperationAddition',
+	label: 'Number: Math: Operation: Addition',
 	description: 'Add two numbers',
 	initialWidth: 160,
 	inputs: ports => [

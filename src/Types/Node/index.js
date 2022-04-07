@@ -14,12 +14,12 @@ import FormatString from './Method/String/Format'
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
 
 // Operation
-import NumberMathAddition from './Method/Number/Math/Operation/Addition'
-import NumberMathSubtraction from './Method/Number/Math/Operation/Subtraction'
-import NumberMathMultiplication from './Method/Number/Math/Operation/Multiplication'
-import NumberMathDivision from './Method/Number/Math/Operation/Division'
-import NumberMathExponentiation from './Method/Number/Math/Operation/Exponentiation'
-import NumberMathModulus from './Method/Number/Math/Operation/Modulus'
+import NumberMathOperationAddition from './Method/Number/Math/Operation/Addition'
+import NumberMathOperationSubtraction from './Method/Number/Math/Operation/Subtraction'
+import NumberMathOperationMultiplication from './Method/Number/Math/Operation/Multiplication'
+import NumberMathOperationDivision from './Method/Number/Math/Operation/Division'
+import NumberMathOperationExponentiation from './Method/Number/Math/Operation/Exponentiation'
+import NumberMathOperationModulus from './Method/Number/Math/Operation/Modulus'
 
 // Boolean
 import ReverseBoolean from './Method/Boolean/Reverse'
@@ -35,12 +35,12 @@ export const Method = {
 	Number: {
 		Math: {
 			Operation: {
-				NumberMathAddition,
-				NumberMathSubtraction,
-				NumberMathMultiplication,
-				NumberMathDivision,
-				NumberMathExponentiation,
-				NumberMathModulus,
+				NumberMathOperationAddition,
+				NumberMathOperationSubtraction,
+				NumberMathOperationMultiplication,
+				NumberMathOperationDivision,
+				NumberMathOperationExponentiation,
+				NumberMathOperationModulus,
 			},
 			NumberMathAbsolute,
 		},

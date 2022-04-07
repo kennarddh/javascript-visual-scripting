@@ -1,6 +1,6 @@
 const Exponentiation = {
-	type: 'numberMathExponentiation',
-	label: 'Number: Math: Exponentiation',
+	type: 'numberMathOperationExponentiation',
+	label: 'Number: Math: Operation: Exponentiation',
 	description: 'Exponentiate a number',
 	initialWidth: 160,
 	inputs: ports => [

@@ -1,6 +1,6 @@
 const Division = {
-	type: 'numberMathDivision',
-	label: 'Number: Math: Division',
+	type: 'numberMathOperationDivision',
+	label: 'Number: Math: Operation: Division',
 	description: 'Divide two numbers',
 	initialWidth: 160,
 	inputs: ports => [

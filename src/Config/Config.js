@@ -30,12 +30,16 @@ Config.addNodeType(Method.String.FormatString)
 Config.addNodeType(Method.Number.Math.NumberMathAbsolute)
 
 // Operation
-Config.addNodeType(Method.Number.Math.Operation.NumberMathAddition)
-Config.addNodeType(Method.Number.Math.Operation.NumberMathSubtraction)
-Config.addNodeType(Method.Number.Math.Operation.NumberMathMultiplication)
-Config.addNodeType(Method.Number.Math.Operation.NumberMathDivision)
-Config.addNodeType(Method.Number.Math.Operation.NumberMathExponentiation)
-Config.addNodeType(Method.Number.Math.Operation.NumberMathModulus)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathOperationAddition)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathOperationSubtraction)
+Config.addNodeType(
+	Method.Number.Math.Operation.NumberMathOperationMultiplication
+)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathOperationDivision)
+Config.addNodeType(
+	Method.Number.Math.Operation.NumberMathOperationExponentiation
+)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathOperationModulus)
 
 // Boolean
 Config.addNodeType(Method.Boolean.ReverseBoolean)

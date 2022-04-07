@@ -1,6 +1,6 @@
 const Multiplication = {
-	type: 'numberMathMultiplication',
-	label: 'Number: Math: Multiplication',
+	type: 'numberMathOperationMultiplication',
+	label: 'Number: Math: Operation: Multiplication',
 	description: 'Multiply two numbers',
 	initialWidth: 160,
 	inputs: ports => [
