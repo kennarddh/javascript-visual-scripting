@@ -33,6 +33,7 @@ Config.addNodeType(Method.Number.Math.NumberMathCeil)
 Config.addNodeType(Method.Number.Math.NumberMathFloor)
 Config.addNodeType(Method.Number.Math.NumberMathRound)
 Config.addNodeType(Method.Number.Math.NumberMathClamp)
+Config.addNodeType(Method.Number.Math.NumberMathSquareRoot)
 
 // Operation
 Config.addNodeType(Method.Number.Math.Operation.NumberMathOperationAddition)

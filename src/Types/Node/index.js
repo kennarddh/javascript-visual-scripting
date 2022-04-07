@@ -17,6 +17,7 @@ import NumberMathCeil from './Method/Number/Math/Ceil'
 import NumberMathFloor from './Method/Number/Math/Floor'
 import NumberMathRound from './Method/Number/Math/Round'
 import NumberMathClamp from './Method/Number/Math/Clamp'
+import NumberMathSquareRoot from './Method/Number/Math/SquareRoot'
 
 // Operation
 import NumberMathOperationAddition from './Method/Number/Math/Operation/Addition'
@@ -53,6 +54,7 @@ export const Method = {
 			NumberMathFloor,
 			NumberMathClamp,
 			NumberMathRound,
+			NumberMathSquareRoot,
 		},
 	},
 	Boolean: { ReverseBoolean },

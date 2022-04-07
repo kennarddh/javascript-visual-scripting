@@ -41,6 +41,8 @@ const ResolveNodes = (node, inputValues) => {
 					inputValues.max
 				),
 			}
+		case 'numberMathSquareRoot':
+			return { number: Math.sqrt(inputValues.number) }
 
 		// Operation
 		case 'numberMathOperationAddition':
