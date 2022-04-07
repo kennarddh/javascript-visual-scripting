@@ -21,8 +21,21 @@ const ResolveNodes = (node, inputValues) => {
 			const message = template.replace(re, (_, key) => inputs[key])
 
 			return { message }
+		case 'stringSwitch':
+			return {
+				string: inputValues.boolean
+					? inputValues.stringIfTrue
+					: inputValues.stringIfFalse,
+			}
 
 		// Number
+		case 'numberSwitch':
+			return {
+				number: inputValues.boolean
+					? inputValues.numberIfTrue
+					: inputValues.numberIfFalse,
+			}
+
 		// Math
 		case 'numberMathAbsolute':
 			return { number: Math.abs(inputValues.number) }

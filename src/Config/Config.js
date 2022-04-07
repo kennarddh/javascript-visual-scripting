@@ -24,8 +24,11 @@ Config.addNodeType(DataTypesNode.BooleanNode)
 // String
 Config.addNodeType(Method.String.JoinString)
 Config.addNodeType(Method.String.FormatString)
+Config.addNodeType(Method.String.StringSwitch)
 
 // Number
+Config.addNodeType(Method.Number.NumberSwitch)
+
 // Math
 Config.addNodeType(Method.Number.Math.NumberMathAbsolute)
 Config.addNodeType(Method.Number.Math.NumberMathPI)

@@ -8,8 +8,11 @@ import RootNode from './Root'
 // String
 import JoinString from './Method/String/Join'
 import FormatString from './Method/String/Format'
+import StringSwitch from './Method/String/Switch'
 
 // Number
+import NumberSwitch from './Method/Number/Switch'
+
 // Math
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
 import NumberMathPI from './Method/Number/Math/PI'
@@ -37,7 +40,7 @@ import BooleanToString from './Method/Convert/BooleanToString'
 export const DataTypes = { StringNode, NumberNode, BooleanNode }
 
 export const Method = {
-	String: { JoinString, FormatString },
+	String: { JoinString, FormatString, StringSwitch },
 	Number: {
 		Math: {
 			Operation: {
@@ -56,6 +59,7 @@ export const Method = {
 			NumberMathRound,
 			NumberMathSquareRoot,
 		},
+		NumberSwitch,
 	},
 	Boolean: { ReverseBoolean },
 	Convert: { NumberToString, BooleanToString },
