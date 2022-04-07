@@ -32,6 +32,8 @@ const ResolveNodes = (node, inputValues) => {
 			return { number: Math.ceil(inputValues.number) }
 		case 'numberMathFloor':
 			return { number: Math.floor(inputValues.number) }
+		case 'numberMathRound':
+			return { number: Math.round(inputValues.number) }
 		case 'numberMathClamp':
 			return {
 				number: Math.min(

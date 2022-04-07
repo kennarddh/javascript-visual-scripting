@@ -15,6 +15,7 @@ import NumberMathAbsolute from './Method/Number/Math/Absolute'
 import NumberMathPI from './Method/Number/Math/PI'
 import NumberMathCeil from './Method/Number/Math/Ceil'
 import NumberMathFloor from './Method/Number/Math/Floor'
+import NumberMathRound from './Method/Number/Math/Round'
 import NumberMathClamp from './Method/Number/Math/Clamp'
 
 // Operation
@@ -51,6 +52,7 @@ export const Method = {
 			NumberMathCeil,
 			NumberMathFloor,
 			NumberMathClamp,
+			NumberMathRound,
 		},
 	},
 	Boolean: { ReverseBoolean },
