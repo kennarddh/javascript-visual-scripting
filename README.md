@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TODO
+
+-   [ ] Add number comparison node
+-   [ ] Add string comparison node
+-   [ ] Add boolean and, or nodes
+-   [ ] Rename boolean reverse to boolean not
+-   [ ] Add date and time nodes
+-   [ ] Add color port
+-   [ ] Add color node
+-   [ ] Add 0 - 225 number node
+-   [ ] Add custom color node
+-   [ ] Add string contains node
+-   [ ] Add random number node
+-   [ ] Add boolean regex node
+
 ## Available Scripts
 
 In the project directory, you can run:
