@@ -23,6 +23,11 @@ const ResolveNodes = (node, inputValues) => {
 			return { message }
 
 		// Number
+		// Math
+		case 'numberMathAbsolute':
+			return { number: Math.abs(inputValues.number) }
+
+		// Operation
 		case 'numberMathAddition':
 			return { number: inputValues.number1 + inputValues.number2 }
 		case 'numberMathSubtraction':

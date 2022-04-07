@@ -26,12 +26,16 @@ Config.addNodeType(Method.String.JoinString)
 Config.addNodeType(Method.String.FormatString)
 
 // Number
-Config.addNodeType(Method.Number.NumberMathAddition)
-Config.addNodeType(Method.Number.NumberMathSubtraction)
-Config.addNodeType(Method.Number.NumberMathMultiplication)
-Config.addNodeType(Method.Number.NumberMathDivision)
-Config.addNodeType(Method.Number.NumberMathExponentiation)
-Config.addNodeType(Method.Number.NumberMathModulus)
+// Math
+Config.addNodeType(Method.Number.Math.NumberMathAbsolute)
+
+// Operation
+Config.addNodeType(Method.Number.Math.Operation.NumberMathAddition)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathSubtraction)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathMultiplication)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathDivision)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathExponentiation)
+Config.addNodeType(Method.Number.Math.Operation.NumberMathModulus)
 
 // Boolean
 Config.addNodeType(Method.Boolean.ReverseBoolean)

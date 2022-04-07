@@ -10,6 +10,10 @@ import JoinString from './Method/String/Join'
 import FormatString from './Method/String/Format'
 
 // Number
+// Math
+import NumberMathAbsolute from './Method/Number/Math/Absolute'
+
+// Operation
 import NumberMathAddition from './Method/Number/Math/Operation/Addition'
 import NumberMathSubtraction from './Method/Number/Math/Operation/Subtraction'
 import NumberMathMultiplication from './Method/Number/Math/Operation/Multiplication'
@@ -29,12 +33,17 @@ export const DataTypes = { StringNode, NumberNode, BooleanNode }
 export const Method = {
 	String: { JoinString, FormatString },
 	Number: {
-		NumberMathAddition,
-		NumberMathSubtraction,
-		NumberMathMultiplication,
-		NumberMathDivision,
-		NumberMathExponentiation,
-		NumberMathModulus,
+		Math: {
+			Operation: {
+				NumberMathAddition,
+				NumberMathSubtraction,
+				NumberMathMultiplication,
+				NumberMathDivision,
+				NumberMathExponentiation,
+				NumberMathModulus,
+			},
+			NumberMathAbsolute,
+		},
 	},
 	Boolean: { ReverseBoolean },
 	Convert: { NumberToString, BooleanToString },
