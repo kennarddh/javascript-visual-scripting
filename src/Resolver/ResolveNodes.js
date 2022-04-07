@@ -15,13 +15,12 @@ const ResolveNodes = (node, inputValues) => {
 					inputValues.separator
 				),
 			}
-		case 'formatString': {
+		case 'formatString':
 			const { template, ...inputs } = inputValues
 			const re = /\{(.*?)\}/g
 			const message = template.replace(re, (_, key) => inputs[key])
 
 			return { message }
-		}
 
 		// Number
 		case 'numberMathAddition':
