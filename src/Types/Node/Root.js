@@ -1,25 +1,31 @@
 const RootNode = {
-	type: 'homepage',
-	label: 'Homepage',
+	type: 'output',
+	label: 'Output',
 	initialWidth: 170,
-	inputs: ports => [
-		ports.string({
-			name: 'title',
-			label: 'Title',
-		}),
-		ports.string({
-			name: 'description',
-			label: 'Description',
-		}),
-		ports.boolean({
-			name: 'showSignup',
-			label: 'Show Signup',
-		}),
-		ports.number({
-			name: 'copyrightYear',
-			label: 'Copyright Year',
-		}),
-	],
+	inputs: ports => data => {
+		const input = [
+			ports.number({
+				name: 'count',
+				label: 'Output Count (Max 100)',
+				hidePort: true,
+			}),
+		]
+
+		if (data.count) {
+			for (let i = 1; i < data.count.number + 1; i++) {
+				input.push(
+					ports.string({
+						name: `output${i}`,
+						label: `Output ${i}`,
+					})
+				)
+
+				if (i >= 100) break
+			}
+		}
+
+		return input
+	},
 }
 
 export default RootNode
