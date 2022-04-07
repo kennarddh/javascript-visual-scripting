@@ -26,6 +26,8 @@ const ResolveNodes = (node, inputValues) => {
 		// Math
 		case 'numberMathAbsolute':
 			return { number: Math.abs(inputValues.number) }
+		case 'numberMathPI':
+			return { number: Math.PI }
 
 		// Operation
 		case 'numberMathOperationAddition':

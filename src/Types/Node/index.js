@@ -12,6 +12,7 @@ import FormatString from './Method/String/Format'
 // Number
 // Math
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
+import NumberMathPI from './Method/Number/Math/PI'
 
 // Operation
 import NumberMathOperationAddition from './Method/Number/Math/Operation/Addition'
@@ -43,6 +44,7 @@ export const Method = {
 				NumberMathOperationModulus,
 			},
 			NumberMathAbsolute,
+			NumberMathPI,
 		},
 	},
 	Boolean: { ReverseBoolean },

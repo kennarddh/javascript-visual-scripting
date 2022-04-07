@@ -28,6 +28,7 @@ Config.addNodeType(Method.String.FormatString)
 // Number
 // Math
 Config.addNodeType(Method.Number.Math.NumberMathAbsolute)
+Config.addNodeType(Method.Number.Math.NumberMathPI)
 
 // Operation
 Config.addNodeType(Method.Number.Math.Operation.NumberMathOperationAddition)
