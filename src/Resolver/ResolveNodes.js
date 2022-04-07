@@ -28,6 +28,17 @@ const ResolveNodes = (node, inputValues) => {
 			return { number: Math.abs(inputValues.number) }
 		case 'numberMathPI':
 			return { number: Math.PI }
+		case 'numberMathCeil':
+			return { number: Math.ceil(inputValues.number) }
+		case 'numberMathFloor':
+			return { number: Math.floor(inputValues.number) }
+		case 'numberMathClamp':
+			return {
+				number: Math.min(
+					Math.max(inputValues.number, inputValues.min),
+					inputValues.max
+				),
+			}
 
 		// Operation
 		case 'numberMathOperationAddition':

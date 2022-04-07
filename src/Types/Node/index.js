@@ -13,6 +13,9 @@ import FormatString from './Method/String/Format'
 // Math
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
 import NumberMathPI from './Method/Number/Math/PI'
+import NumberMathCeil from './Method/Number/Math/Ceil'
+import NumberMathFloor from './Method/Number/Math/Floor'
+import NumberMathClamp from './Method/Number/Math/Clamp'
 
 // Operation
 import NumberMathOperationAddition from './Method/Number/Math/Operation/Addition'
@@ -45,6 +48,9 @@ export const Method = {
 			},
 			NumberMathAbsolute,
 			NumberMathPI,
+			NumberMathCeil,
+			NumberMathFloor,
+			NumberMathClamp,
 		},
 	},
 	Boolean: { ReverseBoolean },
