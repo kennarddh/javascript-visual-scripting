@@ -35,12 +35,20 @@ import NumberMathOperationModulus from './Method/Number/Math/Operation/Modulus'
 // Boolean
 import ReverseBoolean from './Method/Boolean/Reverse'
 
+// Datetime
+import DatetimeNow from './Datetime/Now'
+
 // Convert
 import NumberToString from './Method/Convert/NumberToString'
 import BooleanToString from './Method/Convert/BooleanToString'
 import ColorToString from './Method/Convert/ColorToString'
 
-export const DataTypes = { StringNode, NumberNode, BooleanNode, ColorNode }
+export const DataTypes = {
+	StringNode,
+	NumberNode,
+	BooleanNode,
+	ColorNode,
+}
 
 export const MethodNode = {
 	String: { JoinString, FormatString, StringSwitch },
@@ -65,6 +73,7 @@ export const MethodNode = {
 		NumberSwitch,
 	},
 	Boolean: { ReverseBoolean },
+	Datetime: { DatetimeNow },
 	Convert: { NumberToString, BooleanToString, ColorToString },
 }
 

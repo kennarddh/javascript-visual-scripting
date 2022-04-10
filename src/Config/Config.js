@@ -58,6 +58,9 @@ Config.addNodeType(MethodNode.Number.Math.Operation.NumberMathOperationModulus)
 // Boolean
 Config.addNodeType(MethodNode.Boolean.ReverseBoolean)
 
+// Datetime
+Config.addNodeType(MethodNode.Datetime.DatetimeNow)
+
 // Convert
 Config.addNodeType(MethodNode.Convert.NumberToString)
 Config.addNodeType(MethodNode.Convert.BooleanToString)

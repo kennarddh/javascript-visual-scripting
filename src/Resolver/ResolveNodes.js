@@ -77,6 +77,42 @@ const ResolveNodes = (node, inputValues) => {
 		case 'reverseBoolean':
 			return { boolean: !inputValues.boolean }
 
+		// Datetime
+		case 'datetimeNow':
+			const today = new Date()
+
+			const date =
+				today.getFullYear() +
+				'-' +
+				(today.getMonth() + 1) +
+				'-' +
+				today.getDate()
+
+			const time =
+				today.getHours() +
+				':' +
+				today.getMinutes() +
+				':' +
+				today.getSeconds()
+
+			const datetime = date + ' ' + time
+
+			return {
+				datetime: datetime,
+				date: date,
+				time: time,
+				timestamp: Date.now(),
+				year: today.getFullYear(),
+				month: today.getMonth() + 1,
+				day: today.getDate(),
+				hour: today.getHours(),
+				minute: today.getMinutes(),
+				second: today.getSeconds(),
+				milliseconds: today.getMilliseconds(),
+				monthName: today.toLocaleString('en-us', { month: 'long' }),
+				dayName: today.toLocaleString('en-us', { weekday: 'long' }),
+			}
+
 		// Convert
 		case 'numberToString':
 			return { string: inputValues.number.toString() }
