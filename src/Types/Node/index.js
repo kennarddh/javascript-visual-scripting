@@ -1,8 +1,10 @@
+import RootNode from './Root'
+
 // DataTypes
 import StringNode from './DataTypes/String'
 import NumberNode from './DataTypes/Number'
 import BooleanNode from './DataTypes/Boolean'
-import RootNode from './Root'
+import ColorNode from './DataTypes/Color'
 
 // Method
 // String
@@ -37,9 +39,9 @@ import ReverseBoolean from './Method/Boolean/Reverse'
 import NumberToString from './Method/Convert/NumberToString'
 import BooleanToString from './Method/Convert/BooleanToString'
 
-export const DataTypes = { StringNode, NumberNode, BooleanNode }
+export const DataTypes = { StringNode, NumberNode, BooleanNode, ColorNode }
 
-export const Method = {
+export const MethodNode = {
 	String: { JoinString, FormatString, StringSwitch },
 	Number: {
 		Math: {

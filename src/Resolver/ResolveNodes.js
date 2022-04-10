@@ -6,6 +6,8 @@ const ResolveNodes = (node, inputValues) => {
 			return { number: inputValues.number }
 		case 'boolean':
 			return { boolean: inputValues.boolean }
+		case 'color':
+			return { color: inputValues.color }
 
 		// Method
 		// String

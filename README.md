@@ -9,8 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [ ] Add boolean and, or nodes
 -   [ ] Rename boolean reverse to boolean not
 -   [ ] Add date and time nodes
--   [ ] Add color port
--   [ ] Add custom color node
+-   [x] Add color port
+-   [x] Add color node
 -   [ ] Add string contains node
 -   [ ] Add random number node
 -   [ ] Add boolean regex node
