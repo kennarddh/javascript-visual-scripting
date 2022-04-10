@@ -11,6 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [ ] Add date and time nodes
 -   [x] Add color port
 -   [x] Add color node
+-   [x] Add color to string node
 -   [ ] Add string contains node
 -   [ ] Add random number node
 -   [ ] Add boolean regex node

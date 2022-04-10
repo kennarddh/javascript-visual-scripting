@@ -82,6 +82,10 @@ const ResolveNodes = (node, inputValues) => {
 			return { string: inputValues.number.toString() }
 		case 'booleanToString':
 			return { string: inputValues.boolean.toString() }
+		case 'colorToString':
+			return {
+				string: `red: ${inputValues.color.red}, green: ${inputValues.color.green}, blue: ${inputValues.color.blue}`,
+			}
 
 		default:
 			return inputValues

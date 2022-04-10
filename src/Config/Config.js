@@ -61,6 +61,7 @@ Config.addNodeType(MethodNode.Boolean.ReverseBoolean)
 // Convert
 Config.addNodeType(MethodNode.Convert.NumberToString)
 Config.addNodeType(MethodNode.Convert.BooleanToString)
+Config.addNodeType(MethodNode.Convert.ColorToString)
 
 // Root Node
 Config.addRootNodeType(RootNode)

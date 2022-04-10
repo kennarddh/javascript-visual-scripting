@@ -38,6 +38,7 @@ import ReverseBoolean from './Method/Boolean/Reverse'
 // Convert
 import NumberToString from './Method/Convert/NumberToString'
 import BooleanToString from './Method/Convert/BooleanToString'
+import ColorToString from './Method/Convert/ColorToString'
 
 export const DataTypes = { StringNode, NumberNode, BooleanNode, ColorNode }
 
@@ -64,7 +65,7 @@ export const MethodNode = {
 		NumberSwitch,
 	},
 	Boolean: { ReverseBoolean },
-	Convert: { NumberToString, BooleanToString },
+	Convert: { NumberToString, BooleanToString, ColorToString },
 }
 
 export { RootNode }
