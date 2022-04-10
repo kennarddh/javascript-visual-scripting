@@ -10,8 +10,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [ ] Rename boolean reverse to boolean not
 -   [ ] Add date and time nodes
 -   [ ] Add color port
--   [ ] Add color node
--   [ ] Add 0 - 225 number node
 -   [ ] Add custom color node
 -   [ ] Add string contains node
 -   [ ] Add random number node
