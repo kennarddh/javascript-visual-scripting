@@ -52,6 +52,8 @@ Config.addNodeType(MethodNode.Number.Math.Operation.Modulus)
 
 // Boolean
 Config.addNodeType(MethodNode.Boolean.Reverse)
+Config.addNodeType(MethodNode.Boolean.Or)
+Config.addNodeType(MethodNode.Boolean.And)
 
 // Datetime
 Config.addNodeType(MethodNode.Datetime.Now)

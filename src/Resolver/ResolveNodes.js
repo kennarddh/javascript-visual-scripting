@@ -89,6 +89,10 @@ const ResolveNodes = (node, inputValues) => {
 		// Boolean
 		case 'reverseBoolean':
 			return { boolean: !inputValues.boolean }
+		case 'booleanAnd':
+			return { boolean: inputValues.boolean1 && inputValues.boolean2 }
+		case 'booleanOr':
+			return { boolean: inputValues.boolean1 || inputValues.boolean2 }
 
 		// Datetime
 		case 'datetimeNow':

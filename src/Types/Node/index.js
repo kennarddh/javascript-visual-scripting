@@ -36,6 +36,8 @@ import NumberMathOperationModulus from './Method/Number/Math/Operation/Modulus'
 
 // Boolean
 import ReverseBoolean from './Method/Boolean/Reverse'
+import BooleanOr from './Method/Boolean/Or'
+import BooleanAnd from './Method/Boolean/And'
 
 // Datetime
 import DatetimeNow from './Datetime/Now'
@@ -80,7 +82,7 @@ export const MethodNode = {
 		},
 		Switch: NumberSwitch,
 	},
-	Boolean: { Reverse: ReverseBoolean },
+	Boolean: { Reverse: ReverseBoolean, Or: BooleanOr, And: BooleanAnd },
 	Datetime: { Now: DatetimeNow },
 	Convert: { NumberToString, BooleanToString, ColorToString },
 }
