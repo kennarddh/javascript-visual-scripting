@@ -1,4 +1,4 @@
-const RootNode = {
+const Root = {
 	type: 'output',
 	label: 'Output',
 	initialWidth: 170,
@@ -28,4 +28,4 @@ const RootNode = {
 	},
 }
 
-export default RootNode
+export default Root

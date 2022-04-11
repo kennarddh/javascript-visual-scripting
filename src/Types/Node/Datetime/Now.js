@@ -1,4 +1,4 @@
-const DatetimeNow = {
+const Now = {
 	type: 'datetimeNow',
 	label: 'Datetime: Now',
 	description: 'Returns the current date and time.',
@@ -20,4 +20,4 @@ const DatetimeNow = {
 	],
 }
 
-export default DatetimeNow
+export default Now

@@ -10,7 +10,7 @@ import ColorNode from './DataTypes/Color'
 // String
 import JoinString from './Method/String/Join'
 import FormatString from './Method/String/Format'
-import StringSwitch from './Method/String/Switch'
+import SwitchString from './Method/String/Switch'
 
 // Number
 import NumberSwitch from './Method/Number/Switch'
@@ -44,36 +44,36 @@ import BooleanToString from './Method/Convert/BooleanToString'
 import ColorToString from './Method/Convert/ColorToString'
 
 export const DataTypes = {
-	StringNode,
-	NumberNode,
-	BooleanNode,
-	ColorNode,
+	String: StringNode,
+	Number: NumberNode,
+	Boolean: BooleanNode,
+	Color: ColorNode,
 }
 
 export const MethodNode = {
-	String: { JoinString, FormatString, StringSwitch },
+	String: { Join: JoinString, Format: FormatString, Switch: SwitchString },
 	Number: {
 		Math: {
 			Operation: {
-				NumberMathOperationAddition,
-				NumberMathOperationSubtraction,
-				NumberMathOperationMultiplication,
-				NumberMathOperationDivision,
-				NumberMathOperationExponentiation,
-				NumberMathOperationModulus,
+				Addition: NumberMathOperationAddition,
+				Subtraction: NumberMathOperationSubtraction,
+				Multiplication: NumberMathOperationMultiplication,
+				Division: NumberMathOperationDivision,
+				Exponentiation: NumberMathOperationExponentiation,
+				Modulus: NumberMathOperationModulus,
 			},
-			NumberMathAbsolute,
-			NumberMathPI,
-			NumberMathCeil,
-			NumberMathFloor,
-			NumberMathClamp,
-			NumberMathRound,
-			NumberMathSquareRoot,
+			Absolute: NumberMathAbsolute,
+			PI: NumberMathPI,
+			Ceil: NumberMathCeil,
+			Floor: NumberMathFloor,
+			Clamp: NumberMathClamp,
+			Round: NumberMathRound,
+			SquareRoot: NumberMathSquareRoot,
 		},
-		NumberSwitch,
+		Switch: NumberSwitch,
 	},
-	Boolean: { ReverseBoolean },
-	Datetime: { DatetimeNow },
+	Boolean: { Reverse: ReverseBoolean },
+	Datetime: { Now: DatetimeNow },
 	Convert: { NumberToString, BooleanToString, ColorToString },
 }
 

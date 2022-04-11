@@ -1,6 +1,6 @@
 import { Colors, Controls } from 'flume'
 
-const Color = {
+const ColorPort = {
 	type: 'color',
 	name: 'color',
 	label: 'Color',
@@ -21,4 +21,4 @@ const Color = {
 	],
 }
 
-export default Color
+export default ColorPort

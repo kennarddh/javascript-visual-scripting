@@ -9,57 +9,50 @@ import { DataTypes as DataTypesNode, MethodNode, RootNode } from 'Types/Node'
 const Config = new FlumeConfig()
 
 // Port Config
-Config.addPortType(DataTypesPort.ColorPort)
-
 // DataTypes
-Config.addPortType(DataTypesPort.StringPort)
-Config.addPortType(DataTypesPort.NumberPort)
-Config.addPortType(DataTypesPort.BooleanPort)
+Config.addPortType(DataTypesPort.String)
+Config.addPortType(DataTypesPort.Number)
+Config.addPortType(DataTypesPort.Boolean)
+Config.addPortType(DataTypesPort.Color)
 
 // Node Config
 // DataTypes
-Config.addNodeType(DataTypesNode.StringNode)
-Config.addNodeType(DataTypesNode.NumberNode)
-Config.addNodeType(DataTypesNode.BooleanNode)
-Config.addNodeType(DataTypesNode.ColorNode)
+Config.addNodeType(DataTypesNode.String)
+Config.addNodeType(DataTypesNode.Number)
+Config.addNodeType(DataTypesNode.Boolean)
+Config.addNodeType(DataTypesNode.Color)
 
 // Method
 // String
-Config.addNodeType(MethodNode.String.JoinString)
-Config.addNodeType(MethodNode.String.FormatString)
-Config.addNodeType(MethodNode.String.StringSwitch)
+Config.addNodeType(MethodNode.String.Join)
+Config.addNodeType(MethodNode.String.Format)
+Config.addNodeType(MethodNode.String.Switch)
 
 // Number
-Config.addNodeType(MethodNode.Number.NumberSwitch)
+Config.addNodeType(MethodNode.Number.Switch)
 
 // Math
-Config.addNodeType(MethodNode.Number.Math.NumberMathAbsolute)
-Config.addNodeType(MethodNode.Number.Math.NumberMathPI)
-Config.addNodeType(MethodNode.Number.Math.NumberMathCeil)
-Config.addNodeType(MethodNode.Number.Math.NumberMathFloor)
-Config.addNodeType(MethodNode.Number.Math.NumberMathRound)
-Config.addNodeType(MethodNode.Number.Math.NumberMathClamp)
-Config.addNodeType(MethodNode.Number.Math.NumberMathSquareRoot)
+Config.addNodeType(MethodNode.Number.Math.Absolute)
+Config.addNodeType(MethodNode.Number.Math.PI)
+Config.addNodeType(MethodNode.Number.Math.Ceil)
+Config.addNodeType(MethodNode.Number.Math.Floor)
+Config.addNodeType(MethodNode.Number.Math.Round)
+Config.addNodeType(MethodNode.Number.Math.Clamp)
+Config.addNodeType(MethodNode.Number.Math.SquareRoot)
 
 // Operation
-Config.addNodeType(MethodNode.Number.Math.Operation.NumberMathOperationAddition)
-Config.addNodeType(
-	MethodNode.Number.Math.Operation.NumberMathOperationSubtraction
-)
-Config.addNodeType(
-	MethodNode.Number.Math.Operation.NumberMathOperationMultiplication
-)
-Config.addNodeType(MethodNode.Number.Math.Operation.NumberMathOperationDivision)
-Config.addNodeType(
-	MethodNode.Number.Math.Operation.NumberMathOperationExponentiation
-)
-Config.addNodeType(MethodNode.Number.Math.Operation.NumberMathOperationModulus)
+Config.addNodeType(MethodNode.Number.Math.Operation.Addition)
+Config.addNodeType(MethodNode.Number.Math.Operation.Subtraction)
+Config.addNodeType(MethodNode.Number.Math.Operation.Multiplication)
+Config.addNodeType(MethodNode.Number.Math.Operation.Division)
+Config.addNodeType(MethodNode.Number.Math.Operation.Exponentiation)
+Config.addNodeType(MethodNode.Number.Math.Operation.Modulus)
 
 // Boolean
-Config.addNodeType(MethodNode.Boolean.ReverseBoolean)
+Config.addNodeType(MethodNode.Boolean.Reverse)
 
 // Datetime
-Config.addNodeType(MethodNode.Datetime.DatetimeNow)
+Config.addNodeType(MethodNode.Datetime.Now)
 
 // Convert
 Config.addNodeType(MethodNode.Convert.NumberToString)
