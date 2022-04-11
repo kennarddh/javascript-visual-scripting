@@ -7,11 +7,9 @@ import { Wrapper } from './Style'
 
 const Layout = () => {
 	return (
-		<>
-			<Wrapper>
-				<Outlet />
-			</Wrapper>
-		</>
+		<Wrapper>
+			<Outlet />
+		</Wrapper>
 	)
 }
 

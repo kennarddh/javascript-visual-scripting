@@ -15,24 +15,22 @@ const Home = () => {
 	const [Nodes, SetNodes] = useState(DefaultNodes)
 
 	return (
-		<>
-			<Container>
-				<NodeEditor
-					portTypes={Config.portTypes}
-					nodeTypes={Config.nodeTypes}
-					onChange={SetNodes}
-					defaultNodes={[
-						{
-							type: 'output',
-							x: 0,
-							y: 0,
-						},
-					]}
-					nodes={Nodes}
-				/>
-				<Result nodes={Nodes} />
-			</Container>
-		</>
+		<Container>
+			<NodeEditor
+				portTypes={Config.portTypes}
+				nodeTypes={Config.nodeTypes}
+				onChange={SetNodes}
+				defaultNodes={[
+					{
+						type: 'output',
+						x: 0,
+						y: 0,
+					},
+				]}
+				nodes={Nodes}
+			/>
+			<Result nodes={Nodes} />
+		</Container>
 	)
 }
 

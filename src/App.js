@@ -12,19 +12,17 @@ import NoMatch from './Pages/NoMatch/NoMatch'
 
 const App = () => {
 	return (
-		<>
-			<Router>
-				<Routes>
-					<Route path='/' element={<Layout />}>
-						{/* Home */}
-						<Route index element={<Home />} />
+		<Router>
+			<Routes>
+				<Route path='/' element={<Layout />}>
+					{/* Home */}
+					<Route index element={<Home />} />
 
-						{/* 404 */}
-						<Route path='*' element={<NoMatch />} />
-					</Route>
-				</Routes>
-			</Router>
-		</>
+					{/* 404 */}
+					<Route path='*' element={<NoMatch />} />
+				</Route>
+			</Routes>
+		</Router>
 	)
 }
 

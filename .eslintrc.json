@@ -29,6 +29,8 @@
 		"quotes": ["error", "single"],
 		"semi": ["error", "never"],
 		"react/prop-types": "off",
-		"no-case-declarations": "off"
+		"no-case-declarations": "off",
+		"react/jsx-curly-brace-presence": "warn",
+		"react/jsx-no-useless-fragment": "warn"
 	}
 }

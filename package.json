@@ -22,7 +22,8 @@
 		"eject": "react-scripts eject",
 		"commit": "git-cz",
 		"prepare": "husky install",
-		"lint": "eslint src/**/*.js src/**/*.jsx",
+		"lint:check": "eslint src/**/*.{js,jsx}",
+		"lint:fix": "eslint --fix src/**/*.{js,jsx}",
 		"prettier:fix": "prettier -w \"src/**/*.{js,jsx}\"",
 		"prettier:check": "prettier -c \"src/**/*.{js,jsx}\""
 	},
@@ -56,7 +57,7 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "npx pretty-quick --staged ng lint ng test"
+			"pre-commit": "npx pretty-quick --staged ng lint:fix ng test"
 		}
 	}
 }
