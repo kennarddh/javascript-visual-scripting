@@ -8,6 +8,8 @@ const ResolvePorts = (portType, data) => {
 			return data.number
 		case 'color':
 			return { red: data.red, green: data.green, blue: data.blue }
+		case 'comparisonOperator':
+			return data.operator
 		default:
 			return data
 	}

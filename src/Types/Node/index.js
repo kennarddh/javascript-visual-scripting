@@ -15,6 +15,7 @@ import StringIncludes from './Method/String/Includes'
 
 // Number
 import NumberSwitch from './Method/Number/Switch'
+import NumberComparison from './Method/Number/Comparison'
 
 // Math
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
@@ -81,6 +82,7 @@ export const MethodNode = {
 			Random: NumberMathRandom,
 		},
 		Switch: NumberSwitch,
+		Comparison: NumberComparison,
 	},
 	Boolean: { Not: BooleanNot, Or: BooleanOr, And: BooleanAnd },
 	Datetime: { Now: DatetimeNow },

@@ -4,8 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## TODO
 
--   [ ] Add number comparison node
+-   [x] Add number comparison node
 -   [ ] Add string comparison node
+-   [ ] Add boolean comparison node
+-   [x] Add comparison operators port
 -   [x] Add boolean and, or nodes
 -   [x] Rename boolean reverse to boolean not
 -   [x] Add datetime node

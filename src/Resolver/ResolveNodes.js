@@ -48,6 +48,41 @@ const ResolveNodes = (node, inputValues) => {
 					? inputValues.numberIfTrue
 					: inputValues.numberIfFalse,
 			}
+		case 'numberComparison':
+			const operator = inputValues.operator
+			const number1 = inputValues.number1
+			const number2 = inputValues.number2
+
+			switch (operator) {
+				case '==':
+					return {
+						result: number1 == number2,
+					}
+				case '!=':
+					return {
+						result: number1 != number2,
+					}
+				case '>':
+					return {
+						result: number1 > number2,
+					}
+				case '>=':
+					return {
+						result: number1 >= number2,
+					}
+				case '<':
+					return {
+						result: number1 < number2,
+					}
+				case '<=':
+					return {
+						result: number1 <= number2,
+					}
+				default:
+					return {
+						result: false,
+					}
+			}
 
 		// Math
 		case 'numberMathAbsolute':

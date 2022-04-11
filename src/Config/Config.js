@@ -1,7 +1,10 @@
 import { FlumeConfig } from 'flume'
 
 // PortType
-import { DataTypes as DataTypesPort } from 'Types/Port'
+import {
+	DataTypes as DataTypesPort,
+	ComparisonOperator as ComparisonOperatorPort,
+} from 'Types/Port'
 
 // NodeType
 import { DataTypes as DataTypesNode, MethodNode, RootNode } from 'Types/Node'
@@ -9,6 +12,8 @@ import { DataTypes as DataTypesNode, MethodNode, RootNode } from 'Types/Node'
 const Config = new FlumeConfig()
 
 // Port Config
+Config.addPortType(ComparisonOperatorPort)
+
 // DataTypes
 Config.addPortType(DataTypesPort.String)
 Config.addPortType(DataTypesPort.Number)
@@ -31,6 +36,7 @@ Config.addNodeType(MethodNode.String.Includes)
 
 // Number
 Config.addNodeType(MethodNode.Number.Switch)
+Config.addNodeType(MethodNode.Number.Comparison)
 
 // Math
 Config.addNodeType(MethodNode.Number.Math.Absolute)
