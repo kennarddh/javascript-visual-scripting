@@ -1,5 +1,5 @@
 const Format = {
-	type: 'formatString',
+	type: 'stringFormat',
 	label: 'String: Format',
 	description: 'Format a parameterized string',
 	initialWidth: 230,
@@ -24,7 +24,7 @@ const Format = {
 			...ids.map(id => ports.string({ name: id, label: id })),
 		]
 	},
-	outputs: ports => [ports.string({ label: 'Message' })],
+	outputs: ports => [ports.string({ name: 'message', label: 'Message' })],
 }
 
 export default Format

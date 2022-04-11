@@ -1,5 +1,5 @@
 const Join = {
-	type: 'joinString',
+	type: 'stringJoin',
 	label: 'String: Join',
 	description: 'Combines strings into one string',
 	initialWidth: 160,
@@ -19,7 +19,7 @@ const Join = {
 	],
 	outputs: ports => [
 		ports.string({
-			name: 'joinedString',
+			name: 'joinedText',
 			label: 'Joined String',
 		}),
 	],

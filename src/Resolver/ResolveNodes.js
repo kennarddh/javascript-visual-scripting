@@ -11,13 +11,13 @@ const ResolveNodes = (node, inputValues) => {
 
 		// Method
 		// String
-		case 'joinString':
+		case 'stringJoin':
 			return {
 				joinedText: [inputValues.string1, inputValues.string2].join(
 					inputValues.separator
 				),
 			}
-		case 'formatString':
+		case 'stringFormat':
 			const { template, ...inputs } = inputValues
 			const re = /\{(.*?)\}/g
 			const message = template.replace(re, (_, key) => inputs[key])
