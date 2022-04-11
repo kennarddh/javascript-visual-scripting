@@ -29,6 +29,17 @@ const ResolveNodes = (node, inputValues) => {
 					? inputValues.stringIfTrue
 					: inputValues.stringIfFalse,
 			}
+		case 'stringIncludes':
+			if (inputValues.caseSensitive)
+				return {
+					result: inputValues.string.includes(inputValues.substring),
+				}
+
+			return {
+				result: inputValues.string
+					.toLowerCase()
+					.includes(inputValues.substring.toLowerCase()),
+			}
 
 		// Number
 		case 'numberSwitch':

@@ -11,6 +11,7 @@ import ColorNode from './DataTypes/Color'
 import JoinString from './Method/String/Join'
 import FormatString from './Method/String/Format'
 import SwitchString from './Method/String/Switch'
+import IncludesString from './Method/String/Includes'
 
 // Number
 import NumberSwitch from './Method/Number/Switch'
@@ -51,7 +52,12 @@ export const DataTypes = {
 }
 
 export const MethodNode = {
-	String: { Join: JoinString, Format: FormatString, Switch: SwitchString },
+	String: {
+		Join: JoinString,
+		Format: FormatString,
+		Switch: SwitchString,
+		Includes: IncludesString,
+	},
 	Number: {
 		Math: {
 			Operation: {
