@@ -24,6 +24,7 @@ import NumberMathFloor from './Method/Number/Math/Floor'
 import NumberMathRound from './Method/Number/Math/Round'
 import NumberMathClamp from './Method/Number/Math/Clamp'
 import NumberMathSquareRoot from './Method/Number/Math/SquareRoot'
+import NumberMathRandom from './Method/Number/Math/Random'
 
 // Operation
 import NumberMathOperationAddition from './Method/Number/Math/Operation/Addition'
@@ -75,6 +76,7 @@ export const MethodNode = {
 			Clamp: NumberMathClamp,
 			Round: NumberMathRound,
 			SquareRoot: NumberMathSquareRoot,
+			Random: NumberMathRandom,
 		},
 		Switch: NumberSwitch,
 	},

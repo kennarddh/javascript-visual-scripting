@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [x] Add color node
 -   [x] Add color to string node
 -   [x] Add string includes node
--   [ ] Add random number node
+-   [x] Add random number node
 
 ## Available Scripts
 

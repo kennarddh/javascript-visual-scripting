@@ -40,6 +40,7 @@ Config.addNodeType(MethodNode.Number.Math.Floor)
 Config.addNodeType(MethodNode.Number.Math.Round)
 Config.addNodeType(MethodNode.Number.Math.Clamp)
 Config.addNodeType(MethodNode.Number.Math.SquareRoot)
+Config.addNodeType(MethodNode.Number.Math.Random)
 
 // Operation
 Config.addNodeType(MethodNode.Number.Math.Operation.Addition)

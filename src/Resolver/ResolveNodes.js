@@ -69,6 +69,8 @@ const ResolveNodes = (node, inputValues) => {
 			}
 		case 'numberMathSquareRoot':
 			return { number: Math.sqrt(inputValues.number) }
+		case 'numberMathRandom':
+			return { number: Math.random() }
 
 		// Operation
 		case 'numberMathOperationAddition':
