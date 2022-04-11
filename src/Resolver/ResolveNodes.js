@@ -87,7 +87,7 @@ const ResolveNodes = (node, inputValues) => {
 			return { number: inputValues.number1 ** inputValues.number2 }
 
 		// Boolean
-		case 'booleanReverse':
+		case 'booleanNot':
 			return { boolean: !inputValues.boolean }
 		case 'booleanAnd':
 			return { boolean: inputValues.boolean1 && inputValues.boolean2 }
