@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [ ] Add number comparison node
 -   [ ] Add string comparison node
 -   [x] Add boolean and, or nodes
--   [ ] Rename boolean reverse to boolean not
+-   [x] Rename boolean reverse to boolean not
 -   [x] Add datetime node
 -   [x] Add color port
 -   [x] Add color node

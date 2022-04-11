@@ -35,7 +35,7 @@ import NumberMathOperationExponentiation from './Method/Number/Math/Operation/Ex
 import NumberMathOperationModulus from './Method/Number/Math/Operation/Modulus'
 
 // Boolean
-import ReverseBoolean from './Method/Boolean/Reverse'
+import BooleanNot from './Method/Boolean/Not'
 import BooleanOr from './Method/Boolean/Or'
 import BooleanAnd from './Method/Boolean/And'
 
@@ -82,7 +82,7 @@ export const MethodNode = {
 		},
 		Switch: NumberSwitch,
 	},
-	Boolean: { Reverse: ReverseBoolean, Or: BooleanOr, And: BooleanAnd },
+	Boolean: { Not: BooleanNot, Or: BooleanOr, And: BooleanAnd },
 	Datetime: { Now: DatetimeNow },
 	Convert: { NumberToString, BooleanToString, ColorToString },
 }
