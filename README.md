@@ -14,7 +14,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [x] Add color to string node
 -   [x] Add string includes node
 -   [ ] Add random number node
--   [ ] Add boolean regex node
 
 ## Available Scripts
 
