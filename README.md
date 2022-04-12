@@ -6,7 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 -   [x] Add number comparison node
 -   [x] Add string comparison node
--   [ ] Add boolean comparison node
 -   [x] Add comparison operators port
 -   [x] Add boolean and, or nodes
 -   [x] Rename boolean reverse to boolean not
@@ -16,6 +15,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [x] Add color to string node
 -   [x] Add string includes node
 -   [x] Add random number node
+-   [ ] Add string length node
+-   [ ] Add string replace node
+-   [ ] Add string replace all node
+-   [ ] Add string to uppercase node
+-   [ ] Add string to lowercase node
+-   [ ] Add string trim node
+-   [ ] Add string trim start node
+-   [ ] Add string trim end node
+-   [ ] Add string split node
+-   [ ] Add number is safe integer node
+-   [ ] Add number is integer node
+-   [ ] Add number is finite node
+-   [ ] Add number positive infinity node
+-   [ ] Add number negative infinity node
+-   [ ] Add number min value node
+-   [ ] Add number min safe integer node
+-   [ ] Add number max value node
+-   [ ] Add number mas safe integer node
+-   [ ] Add number epsilon node
 
 ## Available Scripts
 
