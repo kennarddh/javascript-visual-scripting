@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## TODO
 
 -   [x] Add number comparison node
--   [ ] Add string comparison node
+-   [x] Add string comparison node
 -   [ ] Add boolean comparison node
 -   [x] Add comparison operators port
 -   [x] Add boolean and, or nodes

@@ -12,6 +12,7 @@ import StringJoin from './Method/String/Join'
 import StringFormat from './Method/String/Format'
 import StringSwitch from './Method/String/Switch'
 import StringIncludes from './Method/String/Includes'
+import StringComparison from './Method/String/Comparison'
 
 // Number
 import NumberSwitch from './Method/Number/Switch'
@@ -61,6 +62,7 @@ export const MethodNode = {
 		Format: StringFormat,
 		Switch: StringSwitch,
 		Includes: StringIncludes,
+		Comparison: StringComparison,
 	},
 	Number: {
 		Math: {

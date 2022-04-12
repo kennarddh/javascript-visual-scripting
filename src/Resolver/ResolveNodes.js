@@ -40,6 +40,42 @@ const ResolveNodes = (node, inputValues) => {
 					.toLowerCase()
 					.includes(inputValues.substring.toLowerCase()),
 			}
+		case 'stringComparison': {
+			const operator = inputValues.operator
+			const string1 = inputValues.string1
+			const string2 = inputValues.string2
+
+			switch (operator) {
+				case '==':
+					return {
+						result: string1 == string2,
+					}
+				case '!=':
+					return {
+						result: string1 != string2,
+					}
+				case '>':
+					return {
+						result: string1 > string2,
+					}
+				case '>=':
+					return {
+						result: string1 >= string2,
+					}
+				case '<':
+					return {
+						result: string1 < string2,
+					}
+				case '<=':
+					return {
+						result: string1 <= string2,
+					}
+				default:
+					return {
+						result: false,
+					}
+			}
+		}
 
 		// Number
 		case 'numberSwitch':
@@ -48,7 +84,7 @@ const ResolveNodes = (node, inputValues) => {
 					? inputValues.numberIfTrue
 					: inputValues.numberIfFalse,
 			}
-		case 'numberComparison':
+		case 'numberComparison': {
 			const operator = inputValues.operator
 			const number1 = inputValues.number1
 			const number2 = inputValues.number2
@@ -83,6 +119,7 @@ const ResolveNodes = (node, inputValues) => {
 						result: false,
 					}
 			}
+		}
 
 		// Math
 		case 'numberMathAbsolute':
