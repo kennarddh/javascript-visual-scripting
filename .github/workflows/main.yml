@@ -29,3 +29,8 @@ jobs:
             - run: npm run build --if-present
             - run: npm run prettier:fix
             - run: npm run lint:fix
+            - name: Commit lint and prettier changes
+              uses: stefanzweifel/git-auto-commit-action@v4.14.1
+              with:
+                  commit_message: 'ci: Apply lint and prettier changes'
+                  branch: ${{ github.head_ref }}
