@@ -7,9 +7,13 @@ insert_final_newline = false
 
 # Matches multiple files with brace expansion notation
 # Set default charset
+# 4 tabs indentation
 [*]
 charset = utf-8
-
-# 4 tabs indentation
 indent_style = tab
+indent_size = 4
+
+# 4 space indentation
+[*.yml]
+indent_style = space
 indent_size = 4
