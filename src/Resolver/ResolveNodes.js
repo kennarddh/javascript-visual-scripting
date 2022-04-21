@@ -76,6 +76,10 @@ const ResolveNodes = (node, inputValues) => {
 					}
 			}
 		}
+		case 'stringLength':
+			return {
+				length: inputValues.string.length,
+			}
 
 		// Number
 		case 'numberSwitch':

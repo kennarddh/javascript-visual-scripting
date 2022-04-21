@@ -34,6 +34,7 @@ Config.addNodeType(MethodNode.String.Format)
 Config.addNodeType(MethodNode.String.Switch)
 Config.addNodeType(MethodNode.String.Includes)
 Config.addNodeType(MethodNode.String.Comparison)
+Config.addNodeType(MethodNode.String.Length)
 
 // Number
 Config.addNodeType(MethodNode.Number.Switch)
