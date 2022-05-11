@@ -33,6 +33,7 @@ import NumberNegativeInfinity from './Method/Number/NegativeInfinity'
 import NumberMinValue from './Method/Number/MinValue'
 import NumberMinSafeInteger from './Method/Number/MinSafeInteger'
 import NumberMaxValue from './Method/Number/MaxValue'
+import NumberMaxSafeInteger from './Method/Number/MaxSafeInteger'
 
 // Math
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
@@ -117,6 +118,7 @@ export const MethodNode = {
 		MinValue: NumberMinValue,
 		MinSafeInteger: NumberMinSafeInteger,
 		MaxValue: NumberMaxValue,
+		MaxSafeInteger: NumberMaxSafeInteger,
 	},
 	Boolean: { Not: BooleanNot, Or: BooleanOr, And: BooleanAnd },
 	Datetime: { Now: DatetimeNow },

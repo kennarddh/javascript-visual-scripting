@@ -54,6 +54,7 @@ Config.addNodeType(MethodNode.Number.NegativeInfinity)
 Config.addNodeType(MethodNode.Number.MinValue)
 Config.addNodeType(MethodNode.Number.MinSafeInteger)
 Config.addNodeType(MethodNode.Number.MaxValue)
+Config.addNodeType(MethodNode.Number.MaxSafeInteger)
 
 // Math
 Config.addNodeType(MethodNode.Number.Math.Absolute)

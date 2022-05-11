@@ -206,6 +206,11 @@ const ResolveNodes = (node, inputValues) => {
 				number: Number.MAX_VALUE,
 			}
 
+		case 'numberMaxSafeInteger':
+			return {
+				number: Number.MAX_SAFE_INTEGER,
+			}
+
 		// Math
 		case 'numberMathAbsolute':
 			return { number: Math.abs(inputValues.number) }
