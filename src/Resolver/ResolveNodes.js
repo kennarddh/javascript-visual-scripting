@@ -94,6 +94,14 @@ const ResolveNodes = (node, inputValues) => {
 				),
 			}
 
+		case 'stringReplaceAll':
+			return {
+				string: inputValues.string.replaceAll(
+					inputValues.search,
+					inputValues.replace
+				),
+			}
+
 		// Number
 		case 'numberSwitch':
 			return {
