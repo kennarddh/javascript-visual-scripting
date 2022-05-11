@@ -36,6 +36,7 @@ Config.addNodeType(MethodNode.String.Includes)
 Config.addNodeType(MethodNode.String.Comparison)
 Config.addNodeType(MethodNode.String.Length)
 Config.addNodeType(MethodNode.String.Uppercase)
+Config.addNodeType(MethodNode.String.Replace)
 
 // Number
 Config.addNodeType(MethodNode.Number.Switch)

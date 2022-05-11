@@ -15,6 +15,7 @@ import StringIncludes from './Method/String/Includes'
 import StringComparison from './Method/String/Comparison'
 import StringLength from './Method/String/Length'
 import StringUppercase from './Method/String/Uppercase'
+import StringReplace from './Method/String/Replace'
 
 // Number
 import NumberSwitch from './Method/Number/Switch'
@@ -67,6 +68,7 @@ export const MethodNode = {
 		Comparison: StringComparison,
 		Length: StringLength,
 		Uppercase: StringUppercase,
+		Replace: StringReplace,
 	},
 	Number: {
 		Math: {

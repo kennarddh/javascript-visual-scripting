@@ -86,6 +86,14 @@ const ResolveNodes = (node, inputValues) => {
 				string: inputValues.string.toUpperCase(),
 			}
 
+		case 'stringReplace':
+			return {
+				string: inputValues.string.replace(
+					inputValues.search,
+					inputValues.replace
+				),
+			}
+
 		// Number
 		case 'numberSwitch':
 			return {
