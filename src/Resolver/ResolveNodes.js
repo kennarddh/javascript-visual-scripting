@@ -107,6 +107,11 @@ const ResolveNodes = (node, inputValues) => {
 				),
 			}
 
+		case 'stringTrim':
+			return {
+				string: inputValues.string.trim(),
+			}
+
 		// Number
 		case 'numberSwitch':
 			return {

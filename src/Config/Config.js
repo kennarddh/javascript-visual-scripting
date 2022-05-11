@@ -39,6 +39,7 @@ Config.addNodeType(MethodNode.String.Uppercase)
 Config.addNodeType(MethodNode.String.Lowercase)
 Config.addNodeType(MethodNode.String.Replace)
 Config.addNodeType(MethodNode.String.ReplaceAll)
+Config.addNodeType(MethodNode.String.Trim)
 
 // Number
 Config.addNodeType(MethodNode.Number.Switch)
