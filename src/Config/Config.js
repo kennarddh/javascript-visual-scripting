@@ -41,6 +41,7 @@ Config.addNodeType(MethodNode.String.Replace)
 Config.addNodeType(MethodNode.String.ReplaceAll)
 Config.addNodeType(MethodNode.String.Trim)
 Config.addNodeType(MethodNode.String.TrimStart)
+Config.addNodeType(MethodNode.String.TrimEnd)
 
 // Number
 Config.addNodeType(MethodNode.Number.Switch)
