@@ -181,6 +181,11 @@ const ResolveNodes = (node, inputValues) => {
 				boolean: Number.isFinite(inputValues.number),
 			}
 
+		case 'numberPositiveInfinity':
+			return {
+				number: Number.POSITIVE_INFINITY,
+			}
+
 		// Math
 		case 'numberMathAbsolute':
 			return { number: Math.abs(inputValues.number) }

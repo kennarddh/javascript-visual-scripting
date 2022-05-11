@@ -49,6 +49,7 @@ Config.addNodeType(MethodNode.Number.Comparison)
 Config.addNodeType(MethodNode.Number.IsSafeInteger)
 Config.addNodeType(MethodNode.Number.IsInteger)
 Config.addNodeType(MethodNode.Number.IsFinite)
+Config.addNodeType(MethodNode.Number.PositiveInfinity)
 
 // Math
 Config.addNodeType(MethodNode.Number.Math.Absolute)
