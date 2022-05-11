@@ -196,6 +196,11 @@ const ResolveNodes = (node, inputValues) => {
 				number: Number.MIN_VALUE,
 			}
 
+		case 'numberMinSafeInteger':
+			return {
+				number: Number.MIN_SAFE_INTEGER,
+			}
+
 		// Math
 		case 'numberMathAbsolute':
 			return { number: Math.abs(inputValues.number) }
