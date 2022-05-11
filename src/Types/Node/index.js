@@ -17,6 +17,7 @@ import StringLength from './Method/String/Length'
 import StringUppercase from './Method/String/Uppercase'
 import StringReplace from './Method/String/Replace'
 import StringReplaceAll from './Method/String/ReplaceAll'
+import StringLowercase from './Method/String/Lowercase'
 
 // Number
 import NumberSwitch from './Method/Number/Switch'
@@ -69,6 +70,7 @@ export const MethodNode = {
 		Comparison: StringComparison,
 		Length: StringLength,
 		Uppercase: StringUppercase,
+		Lowercase: StringLowercase,
 		Replace: StringReplace,
 		ReplaceAll: StringReplaceAll,
 	},

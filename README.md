@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [x] Add string replace node
 -   [x] Add string replace all node
 -   [x] Add string to uppercase node
--   [ ] Add string to lowercase node
+-   [x] Add string to lowercase node
 -   [ ] Add string trim node
 -   [ ] Add string trim start node
 -   [ ] Add string trim end node
