@@ -30,7 +30,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [x] Add number negative infinity node
 -   [x] Add number min value node
 -   [x] Add number min safe integer node
--   [ ] Add number max value node
+-   [x] Add number max value node
 -   [ ] Add number max safe integer node
 -   [ ] Add number epsilon node
 
