@@ -25,6 +25,7 @@ import StringTrimEnd from './Method/String/TrimEnd'
 // Number
 import NumberSwitch from './Method/Number/Switch'
 import NumberComparison from './Method/Number/Comparison'
+import NumberIsSafeInteger from './Method/Number/IsSafeInteger'
 
 // Math
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
@@ -101,6 +102,7 @@ export const MethodNode = {
 		},
 		Switch: NumberSwitch,
 		Comparison: NumberComparison,
+		IsSafeInteger: NumberIsSafeInteger,
 	},
 	Boolean: { Not: BooleanNot, Or: BooleanOr, And: BooleanAnd },
 	Datetime: { Now: DatetimeNow },
