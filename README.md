@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [x] Add random number node
 -   [x] Add string length node
 -   [x] Add string replace node
--   [ ] Add string replace all node
+-   [x] Add string replace all node
 -   [x] Add string to uppercase node
 -   [ ] Add string to lowercase node
 -   [ ] Add string trim node
