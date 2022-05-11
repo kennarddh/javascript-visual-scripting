@@ -27,6 +27,7 @@ import NumberSwitch from './Method/Number/Switch'
 import NumberComparison from './Method/Number/Comparison'
 import NumberIsSafeInteger from './Method/Number/IsSafeInteger'
 import NumberIsInteger from './Method/Number/IsInteger'
+import NumberIsFinite from './Method/Number/IsFinite'
 
 // Math
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
@@ -105,6 +106,7 @@ export const MethodNode = {
 		Comparison: NumberComparison,
 		IsSafeInteger: NumberIsSafeInteger,
 		IsInteger: NumberIsInteger,
+		IsFinite: NumberIsFinite,
 	},
 	Boolean: { Not: BooleanNot, Or: BooleanOr, And: BooleanAnd },
 	Datetime: { Now: DatetimeNow },

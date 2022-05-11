@@ -25,7 +25,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [x] Add string trim end node
 -   [x] Add number is safe integer node
 -   [x] Add number is integer node
--   [ ] Add number is finite node
+-   [x] Add number is finite node
 -   [ ] Add number positive infinity node
 -   [ ] Add number negative infinity node
 -   [ ] Add number min value node
