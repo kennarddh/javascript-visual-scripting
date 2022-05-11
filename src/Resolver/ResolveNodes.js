@@ -112,6 +112,11 @@ const ResolveNodes = (node, inputValues) => {
 				string: inputValues.string.trim(),
 			}
 
+		case 'stringTrimStart':
+			return {
+				string: inputValues.string.trimStart(),
+			}
+
 		// Number
 		case 'numberSwitch':
 			return {

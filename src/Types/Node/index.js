@@ -19,6 +19,7 @@ import StringLowercase from './Method/String/Lowercase'
 import StringReplace from './Method/String/Replace'
 import StringReplaceAll from './Method/String/ReplaceAll'
 import StringTrim from './Method/String/Trim'
+import StringTrimStart from './Method/String/TrimStart'
 
 // Number
 import NumberSwitch from './Method/Number/Switch'
@@ -75,6 +76,7 @@ export const MethodNode = {
 		Replace: StringReplace,
 		ReplaceAll: StringReplaceAll,
 		Trim: StringTrim,
+		TrimStart: StringTrimStart,
 	},
 	Number: {
 		Math: {
