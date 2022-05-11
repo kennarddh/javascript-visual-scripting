@@ -168,7 +168,7 @@ const ResolveNodes = (node, inputValues) => {
 
 		case 'numberIsSafeInteger':
 			return {
-				result: Number.isSafeInteger(inputValues.number),
+				boolean: Number.isSafeInteger(inputValues.number),
 			}
 
 		case 'numberIsInteger':
