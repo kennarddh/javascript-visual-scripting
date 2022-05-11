@@ -28,7 +28,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [x] Add number is finite node
 -   [x] Add number positive infinity node
 -   [x] Add number negative infinity node
--   [ ] Add number min value node
+-   [x] Add number min value node
 -   [ ] Add number min safe integer node
 -   [ ] Add number max value node
 -   [ ] Add number max safe integer node

@@ -191,6 +191,11 @@ const ResolveNodes = (node, inputValues) => {
 				number: Number.NEGATIVE_INFINITY,
 			}
 
+		case 'numberMinValue':
+			return {
+				number: Number.MIN_VALUE,
+			}
+
 		// Math
 		case 'numberMathAbsolute':
 			return { number: Math.abs(inputValues.number) }
