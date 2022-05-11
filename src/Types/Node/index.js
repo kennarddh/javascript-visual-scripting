@@ -29,6 +29,7 @@ import NumberIsSafeInteger from './Method/Number/IsSafeInteger'
 import NumberIsInteger from './Method/Number/IsInteger'
 import NumberIsFinite from './Method/Number/IsFinite'
 import NumberPositiveInfinity from './Method/Number/PositiveInfinity'
+import NumberNegativeInfinity from './Method/Number/NegativeInfinity'
 
 // Math
 import NumberMathAbsolute from './Method/Number/Math/Absolute'
@@ -109,6 +110,7 @@ export const MethodNode = {
 		IsInteger: NumberIsInteger,
 		IsFinite: NumberIsFinite,
 		PositiveInfinity: NumberPositiveInfinity,
+		NegativeInfinity: NumberNegativeInfinity,
 	},
 	Boolean: { Not: BooleanNot, Or: BooleanOr, And: BooleanAnd },
 	Datetime: { Now: DatetimeNow },
