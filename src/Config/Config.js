@@ -46,7 +46,8 @@ Config.addNodeType(MethodNode.String.TrimEnd)
 // Number
 Config.addNodeType(MethodNode.Number.Switch)
 Config.addNodeType(MethodNode.Number.Comparison)
-Config.addNodeType(MethodNode.Number.Math.IsSafeInteger)
+Config.addNodeType(MethodNode.Number.IsSafeInteger)
+Config.addNodeType(MethodNode.Number.IsInteger)
 
 // Math
 Config.addNodeType(MethodNode.Number.Math.Absolute)

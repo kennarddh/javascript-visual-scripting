@@ -171,6 +171,11 @@ const ResolveNodes = (node, inputValues) => {
 				result: Number.isSafeInteger(inputValues.number),
 			}
 
+		case 'numberIsInteger':
+			return {
+				boolean: Number.isInteger(inputValues.number),
+			}
+
 		// Math
 		case 'numberMathAbsolute':
 			return { number: Math.abs(inputValues.number) }
