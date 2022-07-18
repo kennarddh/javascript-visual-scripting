@@ -5,7 +5,7 @@
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.4",
 		"@testing-library/react": "^12.1.5",
-		"@testing-library/user-event": "^14.2.0",
+		"@testing-library/user-event": "^14.2.6",
 		"flume": "^0.8.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
