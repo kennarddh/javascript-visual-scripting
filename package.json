@@ -2,6 +2,7 @@
 	"name": "javascript-visual-scripting",
 	"version": "1.1.0",
 	"private": true,
+	"homepage": "https://kennarddh.github.io/javascript-visual-scripting/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^12.1.5",
@@ -24,7 +25,8 @@
 		"lint:check": "eslint src/**/*.{js,jsx}",
 		"lint:fix": "eslint --fix src/**/*.{js,jsx}",
 		"prettier:fix": "prettier -w \"src/**/*.{js,jsx}\"",
-		"prettier:check": "prettier -c \"src/**/*.{js,jsx}\""
+		"prettier:check": "prettier -c \"src/**/*.{js,jsx}\"",
+		"deploy": "npm run build && gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -49,6 +51,7 @@
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-react": "^7.30.1",
+		"gh-pages": "^5.0.0",
 		"git-cz": "^4.9.0",
 		"husky": "^8.0.1",
 		"prettier": "^2.7.1",

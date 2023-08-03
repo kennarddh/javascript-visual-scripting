@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 // Component
 import Layout from './Components/Layout/Layout'
@@ -12,7 +12,7 @@ import NoMatch from './Pages/NoMatch/NoMatch'
 
 const App = () => {
 	return (
-		<Router>
+		<HashRouter>
 			<Routes>
 				<Route path='/' element={<Layout />}>
 					{/* Home */}
@@ -22,7 +22,7 @@ const App = () => {
 					<Route path='*' element={<NoMatch />} />
 				</Route>
 			</Routes>
-		</Router>
+		</HashRouter>
 	)
 }
 
